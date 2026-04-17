@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jardín Polinizador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/2909/2909762.png">
+    <div>
+      <h1>PEC 2026</h1>
+      <p>Jardín Polinizador Sostenible</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="#inicio">Inicio</a>
+    <a href="#matematicas">Cálculos</a>
+    <a href="#funcion">Función</a>
+    <a href="#limite">Límite</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-texto">
+    <span class="badge">Proyecto Escolar</span>
+    <h2>Jardín Polinizador</h2>
+    <p>
+      Construcción de un jardín sostenible con especies endémicas,
+      utilizando matemáticas para diseñar su estructura y caminos.
+    </p>
+    <a href="#matematicas" class="btn">Ver diseño</a>
+  </div>
+
+  <div class="hero-imagen">
+    <img src="https://cdn-icons-png.flaticon.com/512/427/427735.png">
+  </div>
+</section>
+
+<!-- MATEMATICAS -->
+<section class="seccion" id="matematicas">
+  <div class="card">
+    <h2>Dimensiones del Jardín</h2>
+    <p>Largo: <strong>12 m</strong></p>
+    <p>Ancho: <strong>8 m</strong></p>
+
+    <h3>Perímetro</h3>
+    <p>P = 2 (12 + 8) = <strong>40 m</strong></p>
+
+    <h3>Área</h3>
+    <p>A = 12 × 8 = <strong>96 m²</strong></p>
+  </div>
+</section>
+
+<!-- FUNCION -->
+<section class="seccion" id="funcion">
+  <div class="card">
+    <h2>Función del Camino</h2>
+    <p><strong>y = 0.2x²</strong></p>
+
+    <button class="btn" onclick="mostrarTabla()">Mostrar tabla</button>
+
+    <table id="tabla">
+      <thead>
+        <tr>
+          <th>x</th>
+          <th>y</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- LIMITE -->
+<section class="seccion" id="limite">
+  <div class="card">
+    <h2>Límite del Camino</h2>
+    <p>0.2x² = 12</p>
+    <p>x = √60 ≈ <strong>7.745 m</strong></p>
+    <p>
+      Este valor indica hasta dónde puede construirse el camino
+      sin salir del jardín.
+    </p>
+  </div>
+</section>
+
+<footer class="footer">
+  Proyecto Escolar Comunitario 2026
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
