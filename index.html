@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Jardín Polinizador</title>
+  <title>Infografía Jardín Polinizador</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,57 +12,63 @@
     <img src="https://cdn-icons-png.flaticon.com/512/2909/2909762.png">
     <div>
       <h1>PEC 2026</h1>
-      <p>Jardín Polinizador Sostenible</p>
+      <p>Infografía del Jardín Polinizador</p>
     </div>
   </div>
-
-  <nav class="nav">
-    <a href="#inicio">Inicio</a>
-    <a href="#matematicas">Cálculos</a>
-    <a href="#funcion">Función</a>
-    <a href="#limite">Límite</a>
-  </nav>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="inicio">
+<section class="hero">
   <div class="hero-texto">
     <span class="badge">Proyecto Escolar</span>
     <h2>Jardín Polinizador</h2>
     <p>
-      Construcción de un jardín sostenible con especies endémicas,
-      utilizando matemáticas para diseñar su estructura y caminos.
+      Diseño de un jardín sostenible usando matemáticas para planificar
+      su forma, área y caminos.
     </p>
-    <a href="#matematicas" class="btn">Ver diseño</a>
-  </div>
-
-  <div class="hero-imagen">
-    <img src="https://cdn-icons-png.flaticon.com/512/427/427735.png">
   </div>
 </section>
 
-<!-- MATEMATICAS -->
-<section class="seccion" id="matematicas">
+<section class="seccion">
   <div class="card">
-    <h2>Dimensiones del Jardín</h2>
-    <p>Largo: <strong>12 m</strong></p>
-    <p>Ancho: <strong>8 m</strong></p>
+    <h2>📌 Propósito</h2>
+    <p>
+      Construir jardines polinizadores sostenibles con flores endémicas,
+      fomentando la participación de la comunidad.
+    </p>
+  </div>
+</section>
 
-    <h3>Perímetro</h3>
+<section class="seccion">
+  <div class="card">
+    <h2>📐 Dimensiones</h2>
+    <p>Largo: 12 m</p>
+    <p>Ancho: 8 m</p>
+    <p>Región: 0 ≤ x ≤ 8 | 0 ≤ y ≤ 12</p>
+  </div>
+</section>
+
+<section class="seccion">
+  <div class="card">
+    <h2>📏 Perímetro</h2>
+    <p>P = 2 (l + a)</p>
     <p>P = 2 (12 + 8) = <strong>40 m</strong></p>
-
-    <h3>Área</h3>
-    <p>A = 12 × 8 = <strong>96 m²</strong></p>
   </div>
 </section>
 
-<!-- FUNCION -->
-<section class="seccion" id="funcion">
+<section class="seccion">
   <div class="card">
-    <h2>Función del Camino</h2>
+    <h2>📊 Área</h2>
+    <p>A = 12 × 8</p>
+    <p><strong>96 m²</strong></p>
+  </div>
+</section>
+
+<section class="seccion">
+  <div class="card">
+    <h2>📈 Función del Camino</h2>
     <p><strong>y = 0.2x²</strong></p>
 
-    <button class="btn" onclick="mostrarTabla()">Mostrar tabla</button>
+    <button class="btn" onclick="mostrarTabla()">Ver tabla</button>
 
     <table id="tabla">
       <thead>
@@ -76,21 +82,32 @@
   </div>
 </section>
 
-<!-- LIMITE -->
-<section class="seccion" id="limite">
+<section class="seccion">
   <div class="card">
-    <h2>Límite del Camino</h2>
+    <h2>📉 Límite del Camino</h2>
     <p>0.2x² = 12</p>
     <p>x = √60 ≈ <strong>7.745 m</strong></p>
     <p>
-      Este valor indica hasta dónde puede construirse el camino
-      sin salir del jardín.
+      El camino solo puede construirse hasta este punto,
+      ya que después se sale del jardín.
     </p>
   </div>
 </section>
 
+<section class="seccion">
+  <div class="card">
+    <h2>🧠 Interpretación</h2>
+    <ul>
+      <li>El perímetro delimita el jardín</li>
+      <li>El área define el espacio</li>
+      <li>La función diseña el camino</li>
+      <li>El límite marca la frontera</li>
+    </ul>
+  </div>
+</section>
+
 <footer class="footer">
-  Proyecto Escolar Comunitario 2026
+  Infografía - Proyecto Escolar Comunitario 2026
 </footer>
 
 <script src="app.js"></script>
