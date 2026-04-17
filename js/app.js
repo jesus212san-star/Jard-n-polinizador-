@@ -7,13 +7,12 @@ function mostrarTabla() {
   for (let x = 0; x <= 8; x++) {
     let y = 0.2 * (x * x);
 
-    let fila = `
+    tbody.innerHTML += `
       <tr>
         <td>${x}</td>
         <td>${y.toFixed(2)}</td>
       </tr>
     `;
-    tbody.innerHTML += fila;
   }
 
   tabla.style.display = "table";
